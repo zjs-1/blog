@@ -1,10 +1,10 @@
 # Menus
 menu:
-  Home: .
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  主页: .
+  归档: archives
+  分类: categories
+  标签: tags
+  关于: about
 
 # Customize
 customize:
@@ -15,23 +15,23 @@ customize:
         url: images/logo.png
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/avatar.png
+        avatar: css/images/logo.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: 千
+        author_title: 一个往全栈努力的前端开发
+        location: 深圳, 中国
+        follow: https://github.com/ZhengHiro
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
-    social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: /
-        facebook: /
-        dribbble: /
-        rss: /
-    social_link_tooltip: true # enable the social link tooltip, options: true, false
+    # social_links:
+    #     github: https://github.com/ZhengHiro
+    #     twitter: /
+    #     facebook: /
+    #     dribbble: /
+    #     rss: /
+    social_link_tooltip: false # enable the social link tooltip, options: true, false
 
 # Widgets
 widgets:

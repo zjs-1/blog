@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 千 & 仙
+title: 千与仙
 subtitle:
 description:
 author: 郑佳生
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://jslovehj.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
