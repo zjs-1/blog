@@ -83,6 +83,11 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/ZhengHiro/ZhengHiro.github.io.git
-  branch: master
+  type: rsync
+  host: 123.207.31.114
+  user: root
+  root: /opt/prj/blog
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false

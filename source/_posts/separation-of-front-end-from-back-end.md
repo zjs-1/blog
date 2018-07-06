@@ -1,7 +1,8 @@
----
 title: 前后端分离实践
 date: 2018-05-21 23:37:44
 tags: [前端,架构]
+categories: 技术
+comments: false
 ---
 
 ## 关于分享题目
