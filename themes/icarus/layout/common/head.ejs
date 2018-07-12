@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
 <head>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4173e3756debe92404a9c0265c8393a7";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
     <meta charset="utf-8">
     <%
         function capitalize (str) { return str.charAt(0).toUpperCase() + str.substring(1).toLowerCase() }
