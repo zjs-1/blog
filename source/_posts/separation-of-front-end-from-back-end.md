@@ -20,7 +20,7 @@ comments: false
 ## 从web研发模式演变看为什么做前后端分离
 
 ### Web 1.0时代
-![](http://p71z5ohu8.bkt.clouddn.com/15268833538629.jpg)
+![](http://cdn.jsblog.site/15268833538629.jpg)
 
 这种研发模式很适合创业型小项目，通常没有细分前后端，一个人或者几个人包揽所有开发任务。网页页面由JSP、PHP等工程师在服务端直接生成，浏览器负责展现。
 
@@ -32,12 +32,12 @@ comments: false
 2. 另一个严重的问题是，JSP等语言太自由，自由到可以直接内嵌Java代码，很容易导致前后端职责不清晰，很多业务逻辑很可能会出现在JSP代码中，会带来大量维护成本。
 
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268849595355.jpg)
+![](http://cdn.jsblog.site/15268849595355.jpg)
 
 ### 后端为主的 MVC 时代
 为了降低开发复杂度，人们从后端出发对Web Server层进行架构升级，开启了后端MVC时代。
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268852141152.jpg)
+![](http://cdn.jsblog.site/15268852141152.jpg)
 
 `MVC架构`将后台分成三个部分，`Model`负责软件的业务逻辑、数据管理，`Controller`负责转发、处理请求，`View`负责数据展示。可以看出，通过这种划分，各个层级的职责分工变得更清晰，但是依然存在问题:
 
@@ -50,11 +50,11 @@ comments: false
 `Ajax`指的是一项用Javascript在浏览器端执行异步网络请求的技术，使用它便可以在不刷新页面的情况更新页面内容。2005年Google在Gmail里面对Ajax技术的应用让这项技术广为人知。我觉得在这之前，所谓的前端开发就是切切图、写写页面，说得好听点应该是`页面开发工程师`，不好听的应该就叫`页面仔`。
 总而言之，Ajax给前端开发带来了更多可能，开启了Web 2.0时代。
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268875566214.jpg)
+![](http://cdn.jsblog.site/15268875566214.jpg)
 
 `SPA (Single Page Application 单页面应用)`就是Ajax的产物，如上面这张图所展示，网页的所有静态资源存放在`CDN`上，网页使用Ajax与后台提供的接口进行数据交互。看起来这种模式已经很美妙了，但同时这种模式把复杂度从后端转移到了移动端的Javascript，所以前端也出现了MVC分层架构。
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268882078705.jpg)
+![](http://cdn.jsblog.site/15268882078705.jpg)
 
 其实这个时候，已经达到许多人所认知的前后端分离了，前端负责浏览器端的开发，后端负责后台业务逻辑的开发与数据管理，二者通过接口进行交互。整个发展的本质就是从后端渲染页面转变成前端渲染页面。
 
@@ -76,7 +76,7 @@ comments: false
 ### Node 带来的全栈时代
 其实一个更好的解决方法是，前端能够获得MVC架构中`Controller`的控制权，如果拥有了`Controller`的控制权，前端可以自己做URL Design，可以根据场景决定一个页面是在服务器同步渲染还是根据View层的数据浏览器异步渲染，还可以根据需求实现`Bigpipe`、`Comet`、`Socket`。
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268918113821.jpg)
+![](http://cdn.jsblog.site/15268918113821.jpg)
 
 `NodeJS`的出现让这个解决方案变得可行。
 
@@ -84,13 +84,13 @@ comments: false
 
 由于`NodeJS`的出现，我们可以重新定义前后端:
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268915779213.jpg)
+![](http://cdn.jsblog.site/15268915779213.jpg)
 这是传统前后端划分，根据代码的运行环境来划分前后端。
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268916262401.jpg)
+![](http://cdn.jsblog.site/15268916262401.jpg)
 这是重新定义的前后端，根据工作职责来划分前后端。
 
-![](http://p71z5ohu8.bkt.clouddn.com/15268922267634.jpg)
+![](http://cdn.jsblog.site/15268922267634.jpg)
 
 这种模式可以解决上一种模式遇到的问题:
 

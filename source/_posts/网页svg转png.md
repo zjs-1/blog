@@ -9,7 +9,7 @@ categories: 技术
 
 在网页上看到一个logo想要保存下来，却发现右键不能下载，打开开发者工具发现这是一个svg标签，怎么样把它下载保存成png呢？
 
-![源svg](http://p71z5ohu8.bkt.clouddn.com/WX20180706-164613.png)
+![源svg](http://cdn.jsblog.site/WX20180706-164613.png)
 
 ## 方法
 
@@ -47,6 +47,6 @@ window.onload = function(){
 }
 ```
 
-![大功告成](http://p71z5ohu8.bkt.clouddn.com/1530867968.jpg)
+![大功告成](http://cdn.jsblog.site/1530867968.jpg)
 
 
