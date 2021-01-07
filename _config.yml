@@ -84,8 +84,8 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: 123.207.31.114
-  user: root
+  host: 106.55.248.60
+  user: zjs
   root: /opt/prj/blog
   port: 22
   delete: true
