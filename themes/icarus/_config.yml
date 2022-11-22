@@ -18,9 +18,8 @@ customize:
         avatar: css/images/logo.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: 千
-        author_title: 一个往全栈努力的前端开发
+        author_title: 没有理想的人不伤心
         location: 深圳, 中国
-        follow: https://github.com/ZhengHiro
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: false # enable posts thumbnail, options: true, false

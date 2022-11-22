@@ -1,7 +1,7 @@
 ---
 title: Vue 打包 Web Components
 date: 2020-03-29 21:52:26
-tags: [技术,前端]
+tags: [前端]
 categories: 技术
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 一次mongodb慢查询排查
 date: 2019-01-10 23:59:05
-tags: [技术,数据库]
+tags: [数据库,运维]
 categories: 技术
 ---
 
